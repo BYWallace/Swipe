@@ -14,6 +14,7 @@
 		FE14851A1B7689EB0060F4A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1485191B7689EB0060F4A6 /* Images.xcassets */; };
 		FE14851D1B7689EB0060F4A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE14851B1B7689EB0060F4A6 /* LaunchScreen.xib */; };
 		FE1485291B7689EB0060F4A6 /* SwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1485281B7689EB0060F4A6 /* SwipeTests.swift */; };
+		FE1485351B768A5D0060F4A6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1485341B768A5D0060F4A6 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		FE1485221B7689EB0060F4A6 /* SwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1485271B7689EB0060F4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE1485281B7689EB0060F4A6 /* SwipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTests.swift; sourceTree = "<group>"; };
+		FE1485341B768A5D0060F4A6 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				FE14850F1B7689EB0060F4A6 /* AppDelegate.swift */,
+				FE1485331B768A3F0060F4A6 /* Views */,
 				FE1485141B7689EB0060F4A6 /* ViewController.swift */,
 				FE1485161B7689EB0060F4A6 /* Main.storyboard */,
 				FE1485191B7689EB0060F4A6 /* Images.xcassets */,
@@ -113,6 +116,14 @@
 				FE1485271B7689EB0060F4A6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE1485331B768A3F0060F4A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE1485341B768A5D0060F4A6 /* CardView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +228,7 @@
 			files = (
 				FE1485151B7689EB0060F4A6 /* ViewController.swift in Sources */,
 				FE1485131B7689EB0060F4A6 /* Swipe.xcdatamodeld in Sources */,
+				FE1485351B768A5D0060F4A6 /* CardView.swift in Sources */,
 				FE1485101B7689EB0060F4A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
