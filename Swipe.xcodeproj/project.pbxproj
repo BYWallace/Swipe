@@ -16,6 +16,7 @@
 		FE1485291B7689EB0060F4A6 /* SwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1485281B7689EB0060F4A6 /* SwipeTests.swift */; };
 		FE1485351B768A5D0060F4A6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1485341B768A5D0060F4A6 /* CardView.swift */; };
 		FE1485371B7695B50060F4A6 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1485361B7695B50060F4A6 /* SwipeView.swift */; };
+		FE14853A1B7699660060F4A6 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1485391B7699660060F4A6 /* CardsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		FE1485281B7689EB0060F4A6 /* SwipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTests.swift; sourceTree = "<group>"; };
 		FE1485341B768A5D0060F4A6 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FE1485361B7695B50060F4A6 /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		FE1485391B7699660060F4A6 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +85,9 @@
 		FE14850C1B7689EB0060F4A6 /* Swipe */ = {
 			isa = PBXGroup;
 			children = (
+				FE1485381B7699270060F4A6 /* ViewControllers */,
 				FE14850F1B7689EB0060F4A6 /* AppDelegate.swift */,
 				FE1485331B768A3F0060F4A6 /* Views */,
-				FE1485141B7689EB0060F4A6 /* ViewController.swift */,
 				FE1485161B7689EB0060F4A6 /* Main.storyboard */,
 				FE1485191B7689EB0060F4A6 /* Images.xcassets */,
 				FE14851B1B7689EB0060F4A6 /* LaunchScreen.xib */,
@@ -127,6 +129,15 @@
 				FE1485361B7695B50060F4A6 /* SwipeView.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		FE1485381B7699270060F4A6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE1485141B7689EB0060F4A6 /* ViewController.swift */,
+				FE1485391B7699660060F4A6 /* CardsViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			files = (
 				FE1485151B7689EB0060F4A6 /* ViewController.swift in Sources */,
 				FE1485131B7689EB0060F4A6 /* Swipe.xcdatamodeld in Sources */,
+				FE14853A1B7699660060F4A6 /* CardsViewController.swift in Sources */,
 				FE1485351B768A5D0060F4A6 /* CardView.swift in Sources */,
 				FE1485371B7695B50060F4A6 /* SwipeView.swift in Sources */,
 				FE1485101B7689EB0060F4A6 /* AppDelegate.swift in Sources */,
