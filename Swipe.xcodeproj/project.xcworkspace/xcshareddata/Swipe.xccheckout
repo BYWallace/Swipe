@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>169F3EF0-6A29-478D-BF78-6351520E69B5</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Swipe</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A63900B9B78733684443A32FC59BE92F5FD7A1B4</key>
 		<string>github.com:BYWallace/Swipe.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Swipe.xcodeproj/project.xcworkspace</string>
+	<string>Swipe.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A63900B9B78733684443A32FC59BE92F5FD7A1B4</key>
