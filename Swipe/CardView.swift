@@ -23,10 +23,10 @@ class CardView: UIView {
         initialize()
     }
     
-    convenience init() {
-        self.init()
-        initialize()
-    }
+//    convenience init() {
+//        self.init()
+//        initialize()
+//    }
     
     private func initialize() {
         imageView.setTranslatesAutoresizingMaskIntoConstraints(false)
