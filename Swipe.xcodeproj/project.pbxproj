@@ -138,8 +138,8 @@
 		FE14850C1B7689EB0060F4A6 /* Swipe */ = {
 			isa = PBXGroup;
 			children = (
-				FE1485381B7699270060F4A6 /* ViewControllers */,
 				FE14850F1B7689EB0060F4A6 /* AppDelegate.swift */,
+				FE1485381B7699270060F4A6 /* ViewControllers */,
 				FE1485331B768A3F0060F4A6 /* Views */,
 				FE1485161B7689EB0060F4A6 /* Main.storyboard */,
 				FE1485191B7689EB0060F4A6 /* Images.xcassets */,
