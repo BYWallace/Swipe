@@ -19,6 +19,7 @@
 		FE1485371B7695B50060F4A6 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1485361B7695B50060F4A6 /* SwipeView.swift */; };
 		FE14853A1B7699660060F4A6 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1485391B7699660060F4A6 /* CardsViewController.swift */; };
 		FE636AC51B7C130D00A64948 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE636AC41B7C130D00A64948 /* LoginViewController.swift */; };
+		FE928F681B7FBD1E001CA364 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE928F671B7FBD1E001CA364 /* User.swift */; };
 		FED8B5551B78457400A8A941 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED8B5531B78457400A8A941 /* Parse.framework */; };
 		FED8B5561B78457400A8A941 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED8B5541B78457400A8A941 /* ParseFacebookUtils.framework */; };
 		FED8B5581B78458800A8A941 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED8B5571B78458800A8A941 /* AudioToolbox.framework */; };
@@ -62,6 +63,7 @@
 		FE1485361B7695B50060F4A6 /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
 		FE1485391B7699660060F4A6 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		FE636AC41B7C130D00A64948 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FE928F671B7FBD1E001CA364 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FED8B5531B78457400A8A941 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1.7.5/Parse.framework"; sourceTree = "<group>"; };
 		FED8B5541B78457400A8A941 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../../Downloads/parse-library-1.7.5/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
 		FED8B5571B78458800A8A941 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				FE14850F1B7689EB0060F4A6 /* AppDelegate.swift */,
+				FE928F661B7FBD00001CA364 /* Data */,
 				FE1485381B7699270060F4A6 /* ViewControllers */,
 				FE1485331B768A3F0060F4A6 /* Views */,
 				FE1485161B7689EB0060F4A6 /* Main.storyboard */,
@@ -195,6 +198,14 @@
 				FE636AC41B7C130D00A64948 /* LoginViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FE928F661B7FBD00001CA364 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FE928F671B7FBD1E001CA364 /* User.swift */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 		FED8B5521B7844A800A8A941 /* Frameworks */ = {
@@ -356,6 +367,7 @@
 				FE1485151B7689EB0060F4A6 /* ViewController.swift in Sources */,
 				FE1485131B7689EB0060F4A6 /* Swipe.xcdatamodeld in Sources */,
 				FE14853A1B7699660060F4A6 /* CardsViewController.swift in Sources */,
+				FE928F681B7FBD1E001CA364 /* User.swift in Sources */,
 				FE1485351B768A5D0060F4A6 /* CardView.swift in Sources */,
 				FE1485371B7695B50060F4A6 /* SwipeView.swift in Sources */,
 				FE1485101B7689EB0060F4A6 /* AppDelegate.swift in Sources */,
