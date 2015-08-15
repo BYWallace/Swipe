@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var initialViewController:UIViewController
         
         if currentUser() != nil {
-            initialViewController = storyboard.instantiateViewControllerWithIdentifier("PageController") as! UIViewController
+            initialViewController = ViewController(transitionStyle: UIPageViewControllerTransitionStyle.Scroll, navigationOrientation: UIPageViewControllerNavigationOrientation.Horizontal, options: nil)
         } else {
             initialViewController = storyboard.instantiateViewControllerWithIdentifier("LoginViewController") as! UIViewController
         }
