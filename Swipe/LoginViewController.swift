@@ -25,6 +25,8 @@ class LoginViewController: UIViewController {
         PFFacebookUtils.logInWithPermissions(["public_profile", "user_about_me", "user_birthday"], block: { (user, error) -> Void in
             if user == nil {
                 println("The user canceled the Facebook login")
+                // Add UIAlertController before pushing to App Store
+                return
             } else if user!.isNew {
                 println("User signed up and logged in thru Facebook")
                 
@@ -47,6 +49,10 @@ class LoginViewController: UIViewController {
             } else {
                 println("User logged in thru Facebook")
             }
+            
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("CardsNavController") as? UIViewController
+            
+            self.presentViewController(vc!, animated: true, completion: nil)
         })
     }
 }
