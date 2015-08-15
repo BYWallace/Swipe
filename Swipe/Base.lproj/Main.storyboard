@@ -60,7 +60,7 @@
         <!--Login View Controller-->
         <scene sceneID="Rh5-sc-bkf">
             <objects>
-                <viewController id="dfE-4H-0cl" customClass="LoginViewController" customModule="Swipe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="dfE-4H-0cl" customClass="LoginViewController" customModule="Swipe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nMd-dD-RAa"/>
                         <viewControllerLayoutGuide type="bottom" id="KUL-Kl-Gzl"/>
