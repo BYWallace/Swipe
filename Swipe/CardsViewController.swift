@@ -113,7 +113,7 @@ class CardsViewController: UIViewController, SwipeViewDelegate {
         println("left")
         if let frontCard = frontCard {
             frontCard.swipeView.removeFromSuperview()
-            saveSkip(frontCard.user)
+            saveAction(frontCard.user, "skipped")
             switchCards()
         }
     }
@@ -122,6 +122,7 @@ class CardsViewController: UIViewController, SwipeViewDelegate {
         println("right")
         if let frontCard = frontCard {
             frontCard.swipeView.removeFromSuperview()
+            saveAction(frontCard.user, "liked")
             switchCards()
         }
     }
