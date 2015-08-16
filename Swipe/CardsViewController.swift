@@ -63,7 +63,7 @@ class CardsViewController: UIViewController, SwipeViewDelegate {
     }
     
     func goToProfile(button: UIBarButtonItem) {
-        
+        pageController.goToPreviousVC()
     }
     
     // MARK: - SwipeViewDelegate
