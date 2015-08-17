@@ -49,6 +49,6 @@ func saveAction(user: User, type: String) {
     let skip = PFObject(className: "Action")
     skip.setObject(PFUser.currentUser()!.objectId!, forKey: "byUser")
     skip.setObject(user.id, forKey: "toUser")
-    skip.setObject(action, forKey: "type")
+    skip.setObject(type, forKey: "type")
     skip.saveInBackgroundWithBlock(nil)
 }
