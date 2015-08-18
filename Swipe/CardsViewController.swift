@@ -20,6 +20,8 @@ class CardsViewController: UIViewController, SwipeViewDelegate {
     let backCardTopMargin: CGFloat = 10
     
     @IBOutlet weak var cardStackView: UIView!
+    @IBOutlet weak var nahButton: UIButton!
+    @IBOutlet weak var yeahButton: UIButton!
     
     var backCard: Card?
     var frontCard: Card?
@@ -59,6 +61,12 @@ class CardsViewController: UIViewController, SwipeViewDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func nahButtonPressed(sender: UIButton) {
+    }
+    
+    @IBAction func yeahButtonPressed(sender: UIButton) {
     }
     
     private func createCardFrame(topMargin: CGFloat) -> CGRect {
