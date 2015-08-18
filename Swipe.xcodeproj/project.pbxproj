@@ -23,6 +23,7 @@
 		FE928F6A1B7FBF5D001CA364 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE928F691B7FBF5D001CA364 /* ProfileViewController.swift */; };
 		FEA2FA8C1B82C5EA00526268 /* MatchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2FA8B1B82C5EA00526268 /* MatchesTableViewController.swift */; };
 		FEA2FA8E1B82C68A00526268 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2FA8D1B82C68A00526268 /* UserCell.swift */; };
+		FEA2FA901B82CAB500526268 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2FA8F1B82CAB500526268 /* Match.swift */; };
 		FED8B5551B78457400A8A941 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED8B5531B78457400A8A941 /* Parse.framework */; };
 		FED8B5561B78457400A8A941 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED8B5541B78457400A8A941 /* ParseFacebookUtils.framework */; };
 		FED8B5581B78458800A8A941 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED8B5571B78458800A8A941 /* AudioToolbox.framework */; };
@@ -70,6 +71,7 @@
 		FE928F691B7FBF5D001CA364 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FEA2FA8B1B82C5EA00526268 /* MatchesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesTableViewController.swift; sourceTree = "<group>"; };
 		FEA2FA8D1B82C68A00526268 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		FEA2FA8F1B82CAB500526268 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		FED8B5531B78457400A8A941 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1.7.5/Parse.framework"; sourceTree = "<group>"; };
 		FED8B5541B78457400A8A941 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../../Downloads/parse-library-1.7.5/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
 		FED8B5571B78458800A8A941 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -213,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				FE928F671B7FBD1E001CA364 /* User.swift */,
+				FEA2FA8F1B82CAB500526268 /* Match.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				FE1485371B7695B50060F4A6 /* SwipeView.swift in Sources */,
 				FEA2FA8E1B82C68A00526268 /* UserCell.swift in Sources */,
 				FE1485101B7689EB0060F4A6 /* AppDelegate.swift in Sources */,
+				FEA2FA901B82CAB500526268 /* Match.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

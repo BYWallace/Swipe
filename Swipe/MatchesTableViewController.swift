@@ -9,14 +9,24 @@
 import UIKit
 
 class MatchesTableViewController: UITableViewController {
+    var matches: [Match] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
         navigationItem.titleView = UIImageView(image: UIImage(named: "chat-header"))
         
         let leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "nav-back-button"), style: UIBarButtonItemStyle.Plain, target: self, action: "goToPreviousVC:")
         navigationItem.setLeftBarButtonItem(leftBarButtonItem, animated: true)
+        
+        fetchMatches { (matches) -> () in
+            self.matches = matches
+            self.tableView.reloadData()
+        }
     }
 
     override func didReceiveMemoryWarning() {
