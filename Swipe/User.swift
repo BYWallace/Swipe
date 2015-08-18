@@ -53,10 +53,31 @@ func fetchUnviewedUsers(callback: ([User]) -> ()) {
     })
 }
 
-func saveAction(user: User, type: String) {
+func saveSkip(user: User) {
     let skip = PFObject(className: "Action")
     skip.setObject(PFUser.currentUser()!.objectId!, forKey: "byUser")
     skip.setObject(user.id, forKey: "toUser")
-    skip.setObject(type, forKey: "type")
+    skip.setObject("skipped", forKey: "type")
     skip.saveInBackgroundWithBlock(nil)
+}
+
+func saveLike(user: User) {
+    PFQuery(className: "Action")
+        .whereKey("byUser", equalTo: user.id)
+        .whereKey("toUser", equalTo: PFUser.currentUser()!.objectId!)
+        .whereKey("type", equalTo: "liked")
+        .getFirstObjectInBackgroundWithBlock({
+            object, error in
+            var matched = false
+            if object != nil {
+                matched = true
+                object!.setObject("matched", forKey: "type")
+                object!.saveInBackgroundWithBlock(nil)
+            }
+            let match = PFObject(className: "Action")
+            match.setObject(PFUser.currentUser()!.objectId!, forKey: "byUser")
+            match.setObject(user.id, forKey: "toUser")
+            match.setObject(matched ? "matched" : "liked", forKey: "type")
+            match.saveInBackgroundWithBlock(nil)
+        })
 }
