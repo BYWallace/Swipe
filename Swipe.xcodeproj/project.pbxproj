@@ -21,6 +21,8 @@
 		FE636AC51B7C130D00A64948 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE636AC41B7C130D00A64948 /* LoginViewController.swift */; };
 		FE928F681B7FBD1E001CA364 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE928F671B7FBD1E001CA364 /* User.swift */; };
 		FE928F6A1B7FBF5D001CA364 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE928F691B7FBF5D001CA364 /* ProfileViewController.swift */; };
+		FEA2FA8C1B82C5EA00526268 /* MatchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2FA8B1B82C5EA00526268 /* MatchesTableViewController.swift */; };
+		FEA2FA8E1B82C68A00526268 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2FA8D1B82C68A00526268 /* UserCell.swift */; };
 		FED8B5551B78457400A8A941 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED8B5531B78457400A8A941 /* Parse.framework */; };
 		FED8B5561B78457400A8A941 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED8B5541B78457400A8A941 /* ParseFacebookUtils.framework */; };
 		FED8B5581B78458800A8A941 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED8B5571B78458800A8A941 /* AudioToolbox.framework */; };
@@ -66,6 +68,8 @@
 		FE636AC41B7C130D00A64948 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FE928F671B7FBD1E001CA364 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FE928F691B7FBF5D001CA364 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FEA2FA8B1B82C5EA00526268 /* MatchesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesTableViewController.swift; sourceTree = "<group>"; };
+		FEA2FA8D1B82C68A00526268 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		FED8B5531B78457400A8A941 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1.7.5/Parse.framework"; sourceTree = "<group>"; };
 		FED8B5541B78457400A8A941 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../../Downloads/parse-library-1.7.5/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
 		FED8B5571B78458800A8A941 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -188,6 +192,7 @@
 			children = (
 				FE1485341B768A5D0060F4A6 /* CardView.swift */,
 				FE1485361B7695B50060F4A6 /* SwipeView.swift */,
+				FEA2FA8D1B82C68A00526268 /* UserCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 				FE636AC41B7C130D00A64948 /* LoginViewController.swift */,
 				FE1485391B7699660060F4A6 /* CardsViewController.swift */,
 				FE928F691B7FBF5D001CA364 /* ProfileViewController.swift */,
+				FEA2FA8B1B82C5EA00526268 /* MatchesTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -370,10 +376,12 @@
 				FE1485151B7689EB0060F4A6 /* ViewController.swift in Sources */,
 				FE1485131B7689EB0060F4A6 /* Swipe.xcdatamodeld in Sources */,
 				FE14853A1B7699660060F4A6 /* CardsViewController.swift in Sources */,
+				FEA2FA8C1B82C5EA00526268 /* MatchesTableViewController.swift in Sources */,
 				FE928F681B7FBD1E001CA364 /* User.swift in Sources */,
 				FE1485351B768A5D0060F4A6 /* CardView.swift in Sources */,
 				FE928F6A1B7FBF5D001CA364 /* ProfileViewController.swift in Sources */,
 				FE1485371B7695B50060F4A6 /* SwipeView.swift in Sources */,
+				FEA2FA8E1B82C68A00526268 /* UserCell.swift in Sources */,
 				FE1485101B7689EB0060F4A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
